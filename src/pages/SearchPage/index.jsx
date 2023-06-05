@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 import { PokemonContext } from '../../context/PokemonContext'
 import { useLocation } from 'react-router-dom';
-import { HashLoader } from 'react-spinners';
 import { Header } from '../../components/HeaderComponent';
 import { PokemonCardComponent } from '../../components/PokemonCardComponent';
 import { Div } from './style';

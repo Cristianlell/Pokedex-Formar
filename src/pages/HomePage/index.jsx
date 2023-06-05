@@ -14,7 +14,7 @@ export const HomePage = () => {
     <>
       <Header />
       {loading
-        ? <DivLoading> <HashLoader color="#36d7b7" /> </DivLoading>
+        ? <DivLoading> <HashLoader color="#ff0144" /> </DivLoading>
         :
         (
           <Div>
